@@ -1,0 +1,123 @@
+body{
+	background-image: url(main_car.png);
+	background-size: cover;
+	margin: 0%;
+	display: block;
+
+
+}
+#logo {
+	font-size: 50px;
+	font-family: yellowtail;
+	float: left;
+	margin-right: 18%;
+	margin-left: 12px;
+	margin-top: 0px;
+
+}
+
+p1, p2, p3, p4 {
+	margin-right: 9px;
+	font-style: normal;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 25px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-left-radius: 2px;
+	
+	/*transition-duration: 0.5s;*/
+}
+
+#header{
+	margin-top: 0px;
+
+	margin-bottom: 0%;
+}
+/*@-webkit-keyframes move {from {border-bottom-style: solid; border-bottom-width: 0px;} to {border-bottom-style: solid; border-bottom-width: 5px;}}*/
+
+
+#p5 {
+	display: inline;
+    position: fixed;
+    left: 0%;
+    margin-top: 7%;
+	font-size: 40px;
+	font-style: bold;
+	margin-left: 0.6%;
+	margin-bottom: 0%;
+	margin-right: 60%;
+	/*-webkit-animation-name:move;
+	-webkit-animation-duration: 4s;
+	position:absolute;
+	background-color: purple;}*/
+
+}
+#discover {
+	font-size: 35px;
+	display: inline;
+	position: fixed;
+    left: 0%;
+    margin-top: 10.5%;
+    margin-left: 23%;
+}
+
+#a1{
+	background-color: black;
+    color: white;
+    border-radius: 4px;
+
+    box-shadow: 3px, 3px, 3px, 3px;
+}
+
+#a1:hover{
+	box-shadow: red;
+}
+
+#img{
+	opacity: 100%;
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#sites{
+	margin-left: 57px;
+}
+#last2{
+	margin-left: 57px;
+	padding-bottom: 20px;
+}
+
+
+
+
+p {
+	font-size: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+#about{
+	background-color: black;
+	color: white;
+	border-radius: 17px;
+	margin-top: 10%;
+	opacity: 56%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#last{
+    padding-bottom: 20px;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+body{
+	background-image: url(main_car.png);
+	background-size: cover;
+	margin: 0%;
+	display: block;
+
+
+}
+#logo {
+	font-size: 50px;
+	font-family: yellowtail;
+	float: left;
+	margin-right: 18%;
+	margin-left: 12px;
+	margin-top: 0px;
+
+}
+
+p1, p2, p3, p4 {
+	margin-right: 9px;
+	font-style: normal;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 25px;
+}
+#h2{
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-left-radius: 2px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-left-radius: 2px;
+	
+	/*transition-duration: 0.5s;*/
+}
+
+#header{
+	margin-top: 0px;
+
+	margin-bottom: 0%;
+}
+
+#names{
+	margin-top: 2%;
+	margin-bottom: 0.2%;
+	text-align: center;
+}
+
+.name{
+	display: inline;
+	margin-right: 1.2%;
+	font-size: 23px;
+}
+
+
+#products{
+	background-color: #D6DDE2;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	border-radius: 12px;
+	height: 600px;
+	padding: 0.01%;
+}
+.item{
+	margin: 1%;
+	width: fit-content;
+	height: fit-content;
+	display: inline-flex;
+	
+}
+.item_text{
+	border-bottom-width: 4px;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-bottom-right-radius: 14px;
+	border-top-right-radius: 14px;
+	border-color: black;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-right-style: dotted;
+}
+#car_nam{
+	font-family: monospace;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 51px;
+	
+}
