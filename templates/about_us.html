@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block about_us %}style="border-bottom-style: solid; border-bottom-width: 3px; border-bottom-left-radius: 2px;{% endblock %}
+ 	
+{% block title %}About Us{% endblock %}
+
+{% block css %}{{ url_for('static', filename='normal_style.css') }}{% endblock %}
+
+
+{% block content %}
+<div id="about">
+	<p>JS Gallery is the third website i have uploaded on the net, and all the design was made by me.</p>
+	<p>But firstly, my name is Ayoub Sami, born and raised in an outskirt town outside of Marrakech, and i'am a uni student.</p>
+	<p>The full work took from me one month, and i'm very glad to upload this wonderfull website.</p>
+	<p id="last">JS Gallery 2024 By Ayoub Sami</p>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block contact_us %}style="border-bottom-style: solid; border-bottom-width: 3px; border-bottom-left-radius: 2px;{% endblock %}
+
+{% block css %}{{ url_for('static', filename='normal_style.css') }}{% endblock %}
+
+
+{% block content %}
+<div id="about">
+	<p>I don't use social media, I'm mostly available on these website:</p>
+	<img src="{{ url_for('static', filename='images/logo1.png') }}" class="img"><p id="sites">https://t.me/Sami_Ayo_0</p>
+	<img src="{{ url_for('static', filename='images/logo2.png') }}" class="img"><p id="sites">https://www.linkedin.com/in/ayoub-sami-321a89248</p>
+	<img src="{{ url_for('static', filename='images/logo3.png') }}" class="img"><p id="last2">https://github.com/ayoubsami</p>
+</div>
+
+{% endblock %}

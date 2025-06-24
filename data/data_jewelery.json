@@ -1,0 +1,122 @@
+[
+	  {
+	    "name": "Hope Diamond",
+	    "full_name": "The Hope Diamond",
+	    "price": "$250.000.000",
+	    "materials": ["45.52-carat blue diamond", "16 white diamonds", "platinum setting"],
+	    "first_owner": "Jean-Baptiste Tavernier (17th century French gem dealer)",
+	    "current_owner": "Smithsonian Institution",
+	    "src": "pics_jewelery/hopediamond.jpg",
+	    "more": "https://naturalhistory.si.edu/visit/virtual-tour/hope-diamond"
+	  },
+	  {
+	    "name": "Pink Star",
+	    "full_name": "The Pink Star Diamond Ring",
+	    "price": "$71.000.000",
+	    "materials": ["59.60-carat Fancy Vivid Pink diamond", "platinum"],
+	    "first_owner": "De Beers (mined in South Africa)",
+	    "current_owner": "Chow Tai Fook Enterprises (Hong Kong)",
+	    "src": "pics_jewelery/pinkstar.jpg",
+	    "more": "https://www.sothebys.com/en/articles/the-pink-star"
+	  },
+	  {
+	    "name": "Wittelsbach-Graff",
+	    "full_name": "The Wittelsbach-Graff Diamond",
+	    "price": "$80.000.000",
+	    "materials": ["31.06-carat deep-blue diamond", "platinum"],
+	    "first_owner": "King Philip IV of Spain (gifted to his daughter)",
+	    "current_owner": "Laurence Graff",
+	    "src": "pics_jewelery/wittelsbach.jpg",
+	    "more": "https://www.graff.com/"
+	  },
+	  {
+	    "name": "L’Incomparable",
+	    "full_name": "L’Incomparable Diamond Necklace",
+	    "price": "$55.000.000",
+	    "materials": ["407.48-carat yellow diamond", "91 white diamonds", "18k gold"],
+	    "first_owner": "Discovered by a young girl in Congo",
+	    "current_owner": "Private collector (via Mouawad)",
+	    "src": "pics_jewelery/lincomparable.jpg",
+	    "more": "https://www.mouawad.com/en/high-jewellery"
+	  },
+	  {
+	    "name": "Blue Moon",
+	    "full_name": "The Blue Moon of Josephine",
+	    "price": "$48.000.000",
+	    "materials": ["12.03-carat Fancy Vivid Blue diamond", "platinum"],
+	    "first_owner": "Petra Diamonds (mined in South Africa)",
+	    "current_owner": "Joseph Lau (named for his daughter)",
+	    "src": "pics_jewelery/bluemoon.jpg",
+	    "more": "https://www.sothebys.com/en/auctions/2015/magnificent-jewels-and-noble-jewels-ge1505.html"
+	  },
+	  {
+	    "name": "Graff Pink",
+	    "full_name": "The Graff Pink Diamond Ring",
+	    "price": "$46.000.000",
+	    "materials": ["24.78-carat Fancy Intense Pink diamond", "platinum", "white diamonds"],
+	    "first_owner": "Harry Winston (famous American jeweler)",
+	    "current_owner": "Laurence Graff",
+	    "src": "pics_jewelery/graffpink.jpg",
+	    "more": "https://www.graff.com/"
+	  },
+	  {
+	    "name": "Peacock Brooch",
+	    "full_name": "Peacock Brooch by Graff",
+	    "price": "$100.000.000",
+	    "materials": ["20.02-carat Fancy Deep Blue diamond", "white diamonds", "yellow & orange diamonds"],
+	    "first_owner": "Graff (original creation)",
+	    "current_owner": "Unknown private collector",
+	    "src": "pics_jewelery/peacockbrooch.jpg",
+	    "more": "https://www.graff.com/"
+	  },
+	  {
+	    "name": "Perfect Pink",
+	    "full_name": "The Perfect Pink Diamond Ring",
+	    "price": "$23.200.000",
+	    "materials": ["14.23-carat Fancy Intense Pink diamond", "two white side diamonds", "platinum"],
+	    "first_owner": "Unknown (auctioned by Christie’s)",
+	    "current_owner": "Private buyer (anonymous)",
+	    "src": "pics_jewelery/perfectpink.jpg",
+	    "more": "https://www.christies.com/en/lot/lot-5378224"
+	  },
+	  {
+	    "name": "Heart of the Ocean",
+	    "full_name": "Heart of the Ocean Replica Necklace",
+	    "price": "$20.000.000",
+	    "materials": ["15-carat blue sapphire", "103 diamonds", "white gold"],
+	    "first_owner": "Celine Dion (wore it at the Oscars)",
+	    "current_owner": "Unknown; original is a movie prop replica",
+	    "src": "pics_jewelery/heartocean.jpg",
+	    "more": "https://www.jamescamerononline.com/TitanicHeartoftheOcean.htm"
+	  },
+	  {
+	    "name": "Orange Diamond",
+	    "full_name": "The Orange Diamond",
+	    "price": "$35.500.000",
+	    "materials": ["14.82-carat Fancy Vivid Orange diamond", "gold setting"],
+	    "first_owner": "Unknown",
+	    "current_owner": "Private buyer (Christie’s auction)",
+	    "src": "pics_jewelery/orangediamond.jpg",
+	    "more": "https://www.christies.com/en/lot/lot-5743082"
+	  },
+	  {
+	    "name": "Sky Blue Diamond",
+	    "full_name": "Sky Blue Diamond Ring",
+	    "price": "$17.000.000",
+	    "materials": ["8.01-carat Fancy Vivid Blue diamond", "platinum ring"],
+	    "first_owner": "Cartier (designer)",
+	    "current_owner": "Private buyer (Sotheby’s auction)",
+	    "src": "pics_jewelery/skyblue.jpg",
+	    "more": "https://www.sothebys.com/en/auctions/2016/magnificent-jewels-and-noble-jewels-ge1605.html"
+	  },
+	  {
+	    "name": "Marie-Antoinette Pearl",
+	    "full_name": "Queen Marie-Antoinette's Pearl Pendant",
+	    "price": "$36.000.000",
+	    "materials": ["Natural drop-shaped pearl", "old-cut diamonds", "satin ribbon"],
+	    "first_owner": "Marie-Antoinette (Queen of France)",
+	    "current_owner": "Private buyer (Sotheby’s auction)",
+	    "src": "pics_jewelery/marieantoinettepearl.jpg",
+	    "more": "https://www.sothebys.com/en/press/sothebys-sale-of-royal-jewels-from-the-bourbon-parma-family"
+	  }
+]

@@ -1,5 +1,5 @@
 body{
-	background-image: url(main_car.png);
+	background-image: url(./images/main_car.webp);
 	background-size: cover;
 	margin: 0%;
 	display: block;
@@ -67,10 +67,9 @@ a:hover{
 	margin-left: 1%;
 	margin-bottom: 1%;
 	border-radius: 12px;
-	height: 600px;
 	padding: 0.01%;
 }
-.item{
+.block{
 	margin: 1%;
 	width: fit-content;
 	height: fit-content;
@@ -87,11 +86,36 @@ a:hover{
 	border-top-style: dotted;
 	border-bottom-style: dotted;
 	border-right-style: dotted;
+	padding-left: 8px;
+	padding-right: 3px;
 }
 #car_nam{
 	font-family: monospace;
-    font-style: italic;
-    font-size: 25px;
-    padding-left: 51px;
-	
+  	font-style: italic;
+ 	font-size: 34px;
+  	text-align: center;
+  	color: #8c91b6e4;
+  	font-weight: bold;
+  	margin-top: 6px;
+  	margin-bottom: 11px;
+}
+.items{
+  	border-left-width: 3px;
+  	border-left-color: #8c91b6e4;
+  	border-left-style: groove;
+}
+
+.item{
+	padding-left: 4px;
+    margin-bottom: 2px;
+}
+
+.more{
+	color: white;
+  background-color: darkslategray;
+  text-decoration: none;
+  font-size: 27px;
+  border-radius: 2px;
+  margin-left: 231px;
+  padding: 0px 12px 2px 12px;
 }

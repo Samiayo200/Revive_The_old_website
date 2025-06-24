@@ -1,0 +1,51 @@
+[
+	  {
+	    "name": "Patek Grandmaster",
+	    "full_name": "Patek Philippe Grandmaster Chime Ref. 6300A-010",
+	    "price": "$31.000.000",
+	    "material": "Stainless Steel",
+	    "src": "pics_watches/grandmasterchime.jpg",
+	    "more": "https://www.patek.com/en/collection/grand-complications/6300"
+	  },
+	  {
+	    "name": "Graff Hallucination",
+	    "full_name": "Graff Hallucination",
+	    "price": "$55.000.000",
+	    "material": "Platinum with rare colored diamonds",
+	    "src": "pics_watches/graffhallucination.jpg",
+	    "more": "https://www.graff.com/collections/high-jewellery/"
+	  },
+	  {
+	    "name": "Jaeger 101",
+	    "full_name": "Jaeger-LeCoultre Joaillerie 101 Manchette",
+	    "price": "$26.000.000",
+	    "material": "White gold with diamonds",
+	    "src": "pics_watches/joaillerie101.jpg",
+	    "more": "https://www.jaeger-lecoultre.com/us/en/explore/101-collection.html"
+	  },
+	  {
+	    "name": "Marie-Antoinette",
+	    "full_name": "Breguet Grande Complication Marie-Antoinette",
+	    "price": "$30.000.000",
+	    "material": "Gold",
+	    "src": "pics_watches/marieantoinette.jpg",
+	    "more": "https://www.breguet.com/en/house/marie-antoinette-watch"
+	  },
+	  {
+	    "name": "Chopard 201-Carat",
+	    "full_name": "Chopard 201-Carat Watch",
+	    "price": "$25.000.000",
+	    "material": "White & yellow gold, 201 carats of colored diamonds",
+	    "src": "pics_watches/chopard201.jpg",
+	    "more": "https://www.chopard.com/us-en/"
+	  },
+	  {
+	    "name": "Jacob Billionaire",
+	    "full_name": "Jacob & Co. Billionaire Watch",
+	    "price": "$18.000.000",
+	    "material": "18k white gold, 260 carats of emerald-cut diamonds",
+	    "src": "pics_watches/billionaire.jpg",
+	    "more": "https://jacobandco.com/collections/billionaire"
+	  }
+]
+

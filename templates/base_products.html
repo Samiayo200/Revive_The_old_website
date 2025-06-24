@@ -16,7 +16,12 @@
  		<p3 {% block contact_us %}{% endblock %}><a href="{{ url_for('contact_us') }}">CONTACT US</a></p3>
  		<p4 {% block about_us %}{% endblock %}><a href="{{ url_for('about_us') }}">ABOUT US</a></p4>
  	</h1>
-  
+  	<div id="names">
+	 	<div class="name" {% block products_car %}{% endblock %}><a href="{{ url_for('products_car') }}">Cars</a></div>
+	 	<div class="name" {% block products_jewelery %}{% endblock %}><a href="{{ url_for('products_jewelery') }}">Jewelery</a></div>
+	 	<div class="name" {% block products_watch %}{% endblock %}><a href="{{ url_for('products_watch') }}">Watches</a></div>
+	 	
+ 	</div>
    {% block content %}{% endblock %}
 
 </body>

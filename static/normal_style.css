@@ -1,5 +1,5 @@
 body{
-	background-image: url(main_car.png);
+	background-image: url(./images/main_car.webp);
 	background-size: cover;
 	margin: 0%;
 	display: block;
@@ -48,9 +48,9 @@ a:hover{
 #p5 {
 	display: inline;
     position: fixed;
-    left: 0%;
-    margin-top: 7%;
-	font-size: 40px;
+    left: 1%;
+    margin-top: 8%;
+	font-size: 34px;
 	font-style: bold;
 	margin-left: 0.6%;
 	margin-bottom: 0%;
@@ -66,8 +66,8 @@ a:hover{
 	display: inline;
 	position: fixed;
     left: 0%;
-    margin-top: 10.5%;
-    margin-left: 23%;
+    margin-top: 13.4%;
+  	margin-left: 28%;
 }
 
 #a1{
@@ -82,10 +82,10 @@ a:hover{
 	box-shadow: red;
 }
 
-#img{
+.img{
 	opacity: 100%;
     position: fixed;
-    margin-top: 12px;
+    margin-top: 18px;
     margin-left: 20px;
 }
 #sites{

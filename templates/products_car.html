@@ -1,40 +1,54 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css2.css">
-	<link rel="shortcut icon" href="ico.ico" type="image/x-icon" />
-	<title>PRODUCTS</title>
-</head>
-<body>
-	<logo id="logo">JS Gallery</logo>
- 	<h1 id="header">
- 		<p1 id="h1"><a href="index.html">HOME</a></p1>
- 		<p2 id="h2"><a href="products_car.html">PRODUCTS</a></p2>
- 		<p3 id="h3"><a href="page3.html">CONTACT US</a></p3>
- 		<p4 id="h4"><a href="page4.html">ABOUT US</a></p4>
- 	</h1>
- 	<div id="names">
-	 	<div class="name" id="h2"><a href="products_car.html">Cars</a></div>
-	 	<div class="name"><a href="products_watch.html">Watches</a></div>
-	 	<div class="name"><a href="products_jewelery.html">Jewelery</a></div>
- 	</div>
- 	<div id="products">
- 		<div id="car1" class="item">
- 			
- 			<img src="pics/T.50.jpg">
- 			<div class="item_text">
- 				<div id="car_nam">GMA T.50</div>
- 			</div>
- 		</div>
- 		<div id="car1" class="item">
- 			
- 			<img src="pics/laraki.jpg">
- 			<div class="item_text">
- 				<div id="car_nam">Laraki</div>
- 			</div>
- 		</div>
- 	</div>
-</body>
-</html>
+{% extends 'base_products.html' %}
+
+{% block products %}
+	style="border-bottom-style: solid; 
+	border-bottom-width: 3px; 
+	border-bottom-left-radius: 2px;
+{% endblock %}
+{% block products_car %}
+	style="border-bottom-style: solid; 
+	border-bottom-width: 3px; 
+	border-bottom-left-radius: 2px;
+{% endblock %}
+
+
+{% block title %}Cars{% endblock %}
+
+
+{% block css %}{{ url_for('static', filename='product_style.css') }}{% endblock %}
+
+
+{% block content %}
+	<div id="products">
+	
+		{% for car in cars %}
+
+			<div class="block">
+				
+				<img src="{{ url_for('static', filename=car.src) }}">
+				<div class="item_text">
+					
+					<div id="car_nam">{{ car.name }}</div>
+
+					<div class="items">
+						<div class="item">Full Name: {{ car.full_name }}</div>
+						<div class="item">Price: {{ car.price }}</div>
+						<div class="item">Speed: {{ car.speed }}</div>
+						<div class="item">Acceleration To 100kph: {{ car.acceleration_to_100_kph }}s</div>
+						<div class="item">Engine: {{ car.engine }}</div>
+						<div class="item">Output: {{ car.output }}</div>
+						<div class="item">Company: {{ car.company }}</div>
+					</div>
+
+					
+					<a href="{{ car.more }}" class="more">More</a>
+				</div>
+
+			</div>
+
+		{% endfor %}
+
+		
+	
+	</div>
+{% endblock %}

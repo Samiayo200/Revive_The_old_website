@@ -1,7 +1,16 @@
-{% block content %}
- 	<diva id="p5">All the expensive thing in the world is just right here.</diva>
+{% extends 'base.html' %}
 
- 	<dis id="discover"><a href="products_car.html" id="a1" onclick="doSomething()">Discover</a></dis>
+{% block home %}style="border-bottom-style: solid; border-bottom-width: 3px; border-bottom-left-radius: 2px;{% endblock %}
+
+
+{% block title %}JS Gallery{% endblock %}
+
+{% block css %}{{ url_for('static', filename='normal_style.css') }}{% endblock %}
+
+{% block content %}
+ 	<diva id="p5">Welcome to the ultimate collection of the world’s most expensive and extraordinary items.</diva>
+
+ 	<dis id="discover"><a href="{{ url_for('products_car') }}" id="a1" onclick="doSomething()">Discover</a></dis>
 
 
 {% endblock %}
